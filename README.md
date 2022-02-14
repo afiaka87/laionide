@@ -3,8 +3,9 @@
 checkpoints for glide finetuned on laion and other datasets. wip.
 
 ## Checkpoints (plan to upload via github releases, work-in-progress)
-https://www.dropbox.com/s/mchzd28p9ees0db/laionide-base.pt
-https://www.dropbox.com/s/7cxn0gelotpocun/laionide-upsample.pt
+
+- https://www.dropbox.com/s/mchzd28p9ees0db/laionide-base.pt
+- https://www.dropbox.com/s/7cxn0gelotpocun/laionide-upsample.pt
 
 ## Training details:
 
