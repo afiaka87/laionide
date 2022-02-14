@@ -2,6 +2,10 @@
 
 checkpoints for glide finetuned on laion and other datasets. wip.
 
+## Checkpoints (plan to upload via github releases, work-in-progress)
+https://www.dropbox.com/s/mchzd28p9ees0db/laionide-base.pt
+https://www.dropbox.com/s/7cxn0gelotpocun/laionide-upsample.pt
+
 ## Training details:
 
 GLIDE finetune on laion over both the base model (1M captions seen for 2 epochs with 20% chance of unconditional token) and the upsample model (tune for around 200K samples, same as above with 20% unconditional)
@@ -18,10 +22,6 @@ https://replicate.com/afiaka87/laionide
 
 https://github.com/afiaka87/pyglide
 (just specify `--glide_base_path` and `--glide_sr_path`)
-
-## Checkpoints (plan to upload via github releases, work-in-progress)
-https://www.dropbox.com/s/mchzd28p9ees0db/laionide-base.pt
-https://www.dropbox.com/s/7cxn0gelotpocun/laionide-upsample.pt
 
 ## Deliverables
 
