@@ -1,9 +1,13 @@
-# laionide
+# laionide 
+
 
 **update: LaionideV2, trained even more.**
 
 ![/compare.png](/compare.png)
 _Top - OpenAI, Bottom - LaionideV2_
+
+For the code used to create the replicate demo:
+https://github.com/afiaka87/pyglide-replicate
 
 ## Laionide (v2)
 
