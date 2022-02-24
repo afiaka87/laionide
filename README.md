@@ -17,8 +17,13 @@ https://github.com/afiaka87/pyglide-replicate
 - [colab](https://gist.github.com/afiaka87/b1500fd06a9d5991d7bd90aa9c2dc6da#file-laionide-v2-ipynb)
 
 ### Checkpoints (v2)
-https://www.dropbox.com/s/2kf6nsrtis3bcwh/laion-glide-v2-final.pt
-https://www.dropbox.com/s/pbai2yk479ia2qy/laion-glide-v2-sr-final.pt
+Base 64px checkpoint:
+
+`wget -nc https://github.com/afiaka87/laionide/releases/download/Checkpoints/laionide-v2-base.pt`
+
+Upsample 64px->256px checkpoint:
+
+`wget -nc https://www.dropbox.com/s/pbai2yk479ia2qy/laion-glide-v2-sr-final.pt`
 
 ### Watermarks (v2)
 
@@ -37,6 +42,10 @@ Data was removed from training given any of the following:
 - Captions were checked against a list of slurs. If a slur is in the caption, it is removed. I won't be publishing the slurs.
 
 Shout out to stability.ai for donating the compute to [laion](https://discord.gg/8pSACZJk) needed for this to be possible.
+
+
+
+
 
 ## Laionide (v1)
 ### Checkpoints (v1)
