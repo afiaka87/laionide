@@ -23,7 +23,7 @@ Base 64px checkpoint:
 
 Upsample 64px->256px checkpoint:
 
-`wget -nc https://www.dropbox.com/s/pbai2yk479ia2qy/laion-glide-v2-sr-final.pt`
+`wget -nc https://github.com/afiaka87/laionide/releases/download/Checkpoints/laionide-v2-sr.pt`
 
 ### Watermarks (v2)
 
