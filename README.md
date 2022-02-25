@@ -15,7 +15,7 @@ Files:
 
 Inference:
 - [replicate](https://replicate.com/afiaka87/laionide-v3)
-- [colab](https://gist.github.com/afiaka87/b1500fd06a9d5991d7bd90aa9c2dc6da#file-laionide-v2-ipynb)
+- [colab](https://gist.github.com/afiaka87/8655b15c94bf0e80f586ce54cfe39ab5#file-laionide-v3-ipynb)
 - [locally](https://github.com/afiaka87/pyglide)
 
 Results:
