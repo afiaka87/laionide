@@ -1,29 +1,24 @@
 # laionide 
 
 
-**update: LaionideV2, trained even more.**
-
-![/compare.png](/compare.png)
-_Top - OpenAI, Bottom - LaionideV2_
+**update: Laionide ~~V2~~ _V3_, finetuned on CC12M and other datasets. Produces fewer watermarks.**
 
 For the code used to create the replicate demo:
 https://github.com/afiaka87/pyglide-replicate
 
-## Laionide (v2)
 
-### Run inference (v2)
-
-- [replicate](https://replicate.com/afiaka87/laionide)
+## Laionide (v3)
+- [laionide-v3-base.pt](https://github.com/afiaka87/laionide/releases/download/Checkpoints/laionide-v3-base.pt)
+- [replicate](https://replicate.com/afiaka87/laionide-v3)
 - [colab](https://gist.github.com/afiaka87/b1500fd06a9d5991d7bd90aa9c2dc6da#file-laionide-v2-ipynb)
+- [comparison to openai W&B report](https://wandb.ai/afiaka87/laionide-v3-glide/reports/Laionide-Version-3-Benchmark--VmlldzoxNjE0MTE3)
 
-### Checkpoints (v2)
-Base 64px checkpoint:
+You can use `laionide-v2-sr.pt` to upscale the outputs from `laionide-v3-base.pt`.
 
-`wget -nc https://github.com/afiaka87/laionide/releases/download/Checkpoints/laionide-v2-base.pt`
-
-Upsample 64px->256px checkpoint:
-
-`wget -nc https://github.com/afiaka87/laionide/releases/download/Checkpoints/laionide-v2-sr.pt`
+## Laionide (v2)
+- [laionide-v2-base.pt](https://github.com/afiaka87/laionide/releases/download/Checkpoints/laionide-v2-base.pt)
+- [laionide-v2-sr.pt](https://github.com/afiaka87/laionide/releases/download/Checkpoints/laionide-v2-sr.pt)
+- [replicate](https://replicate.com/afiaka87/laionide-v2)
 
 ### Watermarks (v2)
 
