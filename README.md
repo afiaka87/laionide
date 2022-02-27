@@ -5,9 +5,15 @@ Laionide is a project to create a large, unfiltered, open GLIDE model.
 
 **Update: Laionide ~~V2~~ _V3_, finetuned on CC12M and other datasets. Produces fewer watermarks.**
 
+Much ♥ to stability.ai for donating needed compute to [Laion](https://discord.gg/8pSACZJk)
+
+![](samples/rouge_robot.png?raw=true)
+
 Replicate codebase: https://github.com/afiaka87/pyglide-replicate
 
-Much ♥ to stability.ai for donating needed compute to [Laion](https://discord.gg/8pSACZJk)
+Finetuning script: https://github.com/afiaka87/glide-finetune
+
+Inference locally: https://github.com/afiaka87/pyglide
 
 ## Laionide (v3)
 
@@ -17,7 +23,7 @@ Files:
 Inference:
 - [replicate](https://replicate.com/afiaka87/laionide-v3)
 - [colab](https://gist.github.com/afiaka87/8655b15c94bf0e80f586ce54cfe39ab5#file-laionide-v3-ipynb)
-- [locally](https://github.com/afiaka87/pyglide)
+- [locally]()
 
 Results:
 - [comparison to openai W&B report](https://wandb.ai/afiaka87/laionide-v3-glide/reports/Laionide-Version-3-Benchmark--VmlldzoxNjE0MTE3)
@@ -62,9 +68,3 @@ Files (Links currently broken)
 - GLIDE (filtered) finetuned on Laion400M 
 - 1M captions seen for 2 epochs with 20% chance of unconditional token
 - Upsample model saw 200K samples.
-
-## Deliverables
-
-Finetuning script: https://github.com/afiaka87/glide-finetune
-
-Replicate demo branch: https://github.com/afiaka87/pyglide-replicate/tree/laionide
