@@ -1,11 +1,9 @@
 # Laionide 
-[![replicate](https://img.shields.io/badge/Replicate-visit%20replicate-lightgrey?style=flat)](https://replicate.com/afiaka87/laionide-v3) [![colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1WUkAE6vpKeri2axo17ROwCvpPN8W6SIy?usp=sharing)
+[![colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1WUkAE6vpKeri2axo17ROwCvpPN8W6SIy?usp=sharing) [![replicate](https://img.shields.io/badge/Replicate-visit%20replicate-lightgrey?style=flat)](https://replicate.com/afiaka87/laionide-v3) [![discord](https://img.shields.io/discord/823813159592001537?color=5865F2&logo=discord&logoColor=white)](https://discord.gg/xBPBXfcFHd)
 
-Laionide is a project to create a large, unfiltered, open GLIDE model.
+Laionide is a project to create a large, robust, open GLIDE model using [Laion](https://laion.ai/#top)'s datasets.
 
 **Update: Laionide ~~V2~~ _V3_, finetuned on CC12M and other datasets. Produces fewer watermarks.**
-
-Much ♥ to stability.ai for donating needed compute to [Laion](https://discord.gg/8pSACZJk)
 
 ![](samples/rouge_robot.png?raw=true)
 
@@ -17,14 +15,15 @@ Finetuning script: https://github.com/afiaka87/glide-finetune
 
 Inference locally: https://github.com/afiaka87/pyglide
 
+Much ♥ to stability.ai for donating needed compute to [Laion](https://discord.gg/8pSACZJk)
+
 ## Laionide (v3)
 [![colab](https://colab.research.google.com/assets/colab-badge.svg)](https://gist.github.com/afiaka87/8655b15c94bf0e80f586ce54cfe39ab5#file-laionide-v3-ipynb) [![replicate](https://img.shields.io/badge/Replicate-visit%20replicate-lightgrey?style=flat)](https://replicate.com/afiaka87/laionide-v3)
 
+[W&B comparison report](https://wandb.ai/afiaka87/laionide-v3-glide/reports/Laionide-Version-3-Benchmark--VmlldzoxNjE0MTE3)
+
 Files:
 - [laionide-v3-base.pt](https://github.com/afiaka87/laionide/releases/download/Checkpoints/laionide-v3-base.pt)
-
-Results:
-- [W&B comparison report](https://wandb.ai/afiaka87/laionide-v3-glide/reports/Laionide-Version-3-Benchmark--VmlldzoxNjE0MTE3)
 
 Notes:
 - You can use `laionide-v2-sr.pt` to upscale the outputs from `laionide-v3-base.pt`.
@@ -37,12 +36,11 @@ Notes:
 ## Laionide (v2)
 [![replicate](https://img.shields.io/badge/Replicate-visit%20replicate-lightgrey?style=flat)](https://replicate.com/afiaka87/laionide-v2)
 
+[W&B comparison report](https://wandb.ai/afiaka87/glide_compare/reports/Finetuning-GLIDE-on-LAION-does-it-work---VmlldzoxNTg3MTkz)
+
 Files:
 - [laionide-v2-base.pt](https://github.com/afiaka87/laionide/releases/download/Checkpoints/laionide-v2-base.pt)
 - [laionide-v2-sr.pt](https://github.com/afiaka87/laionide/releases/download/Checkpoints/laionide-v2-sr.pt)
-
-Results:
-- [W&B comparison report](https://wandb.ai/afiaka87/glide_compare/reports/Finetuning-GLIDE-on-LAION-does-it-work---VmlldzoxNTg3MTkz)
 
 ### Training details:
 - Data was removed from training given any of the following:
