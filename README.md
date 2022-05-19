@@ -4,6 +4,14 @@ Shout out to stability.ai for donating the compute to [laion](https://discord.gg
 
 ## Laionide (v3)
 
+Comparison:
+
+OpenAI `glide-base-filtered` (top) and `laionide-v3` (bottom).
+
+![](/compare.png)
+
+> "People are walking with umbrellas in the rain" 
+
 Files:
 - [laionide-v3-base.pt](https://github.com/afiaka87/laionide/releases/download/Checkpoints/laionide-v3-base.pt)
 
