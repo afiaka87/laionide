@@ -1,11 +1,5 @@
 # laionide 
 
-
-**update: Laionide ~~V2~~ _V3_, finetuned on CC12M and other datasets. Produces fewer watermarks.**
-
-For the code used to create the replicate demo:
-https://github.com/afiaka87/pyglide-replicate
-
 Shout out to stability.ai for donating the compute to [laion](https://discord.gg/8pSACZJk) needed for this to be possible.
 
 ## Laionide (v3)
